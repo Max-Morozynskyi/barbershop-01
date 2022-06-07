@@ -1,0 +1,7 @@
+:root {
+    --main-color: #FF6C00;
+}
+
+a:hover {
+    color: var(--main-color);
+}
