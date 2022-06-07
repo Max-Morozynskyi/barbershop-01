@@ -15,23 +15,24 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image.x-icon" />
   </head>
   <body>
-    <header>
+    <header class="head">
       <a href="./index.html"
         ><img src="./images/logo.svg" alt="logo" width="69" height="56"
       /></a>
       <nav>
         <ul>
-          <li><a href="#about" class="nav">О нас</a></li>
-          <li><a href="#price" class="nav">Услуги и цены</a></li>
-          <li><a href="#workers" class="nav">Мастера</a></li>
-          <li><a href="#contacts" class="nav">Контакты</a></li>
+          <li><a href="#about" class="link">О нас</a></li>
+          <li><a href="#price" class="link">Услуги и цены</a></li>
+          <li><a href="#workers" class="link">Мастера</a></li>
+          <li><a href="#contacts" class="link">Контакты</a></li>
         </ul>
       </nav>
       <div>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">онлайн-запись</button>
+        <a href="tel:+380441111111" class="link">+38 044 111 11 11</a>
+        <a href="#form" class="button">онлайн-запись</a>
       </div>
     </header>
+
     <main>
       <!-- section hero -->
 
@@ -97,8 +98,7 @@
             клиентами "на одной волне". Поэтому, мы всегда готовы
             усовершенствовать каждого, кто к нам приходит!
           </p>
-          \
-          <button type="button">онлайн-запись</button>
+          <a href="#form" class="button">онлайн-запись</a>
         </div>
       </section>
 
@@ -124,7 +124,7 @@
             </ul>
           </li>
         </ul>
-        <button type="button">онлайн-запись</button>
+        <a href="#form" class="button">онлайн-запись</a>
       </section>
 
       <!-- statistics -->
@@ -359,7 +359,7 @@
 
       <!-- section contacts -->
       <section class="contacts" id="contacts">
-        <div>
+        <div id="form">
           <h2>Онлайн-запись</h2>
           <form action=""></form>
           <button type="button">отправить</button>
