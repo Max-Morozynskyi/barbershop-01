@@ -20,6 +20,11 @@ body {
 a {
     text-decoration: none;
 }
+.text {
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+}
 
 /* хедер */
 
@@ -93,9 +98,6 @@ a {
     color: #FFFFFF;
 }
 .hero > .text {
-    font-size: 18px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
 
     color: var(--text-color-light);
 }
@@ -122,10 +124,8 @@ a {
 
     color: var(--preview-color-dark);
 }
-.about .text {
-    font-size: 18px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
+.about .text,
+.stats .text{
 
     color: var(--text-color-dark);
 }
@@ -145,9 +145,37 @@ a {
 }
 
 /* прайс */
+.price .title {
+    color: #FFFFFF;
+}
+.price .table {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
 
+    color: var(--text-color-light);
+}
 
 /* статистика */
+.stats > .about {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    text-align: center;
+
+    color: var(--preview-color-dark);
+}
+.stats .quantity {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    letter-spacing: 0.05em;
+
+    color: var(--preview-color-dark);
+}
+.stats .plus {
+    color: var(--main-color);
+}
 
 
 /* наши мастера */
