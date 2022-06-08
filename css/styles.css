@@ -179,5 +179,63 @@ a {
 
 
 /* наши мастера */
+.workers {
+    background-color: var(--light-background);
+}
+.workers .name {   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.02em;
 
+    color: var(--preview-color-dark);
+}
+.workers .position {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.02em;
 
+    color: var(--main-color)
+}
+
+/* contacts */
+.contacts {
+    background-color: var(--dark-background);
+}
+.contacts .title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+#form>.title {
+    color: rgba(100%, 100%, 100%, 0.6);
+}
+.contacts .adress-info a,
+.contacts .work-time-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+
+    color: var(--text-color-light);
+}
+.contacts .formula {
+    color: #fff;
+}
+    
+/* footer */
+.copyright {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 1.3;
+        letter-spacing: 0.2em;
+        color: var(--text-color-light);
+}
