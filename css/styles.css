@@ -230,6 +230,9 @@ a {
 .contacts .formula {
     color: #fff;
 }
+.adress-info a:hover {
+    color: var(--main-color);
+}
     
 /* footer */
 .copyright {
